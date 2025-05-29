@@ -82,7 +82,13 @@ const Row2 = () => {
     }
   );
   return (
-    <Stack direction={"row"} mt={3} gap={1.5} flexWrap={"wrap"}>
+    <Stack
+      direction={"row"}
+      mt={3}
+      rowGap={1.5}
+      columnGap={5}
+      flexWrap={"wrap"}
+    >
       <Paper
         sx={{
           height: "380px",

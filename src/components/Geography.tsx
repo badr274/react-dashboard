@@ -9,7 +9,6 @@ const Geography = ({ isDashboard = false }: IGeo) => {
   const theme = useTheme();
   return (
     <Box sx={{ height: "80vh" }}>
-      {" "}
       <ResponsiveChoropleth
         data={geoData}
         features={geo.features}
